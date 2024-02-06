@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+
+}
+.tbar{
+    position: absolute;
+    height: 100%;
+    width: 5%;
+    /* background-color: peachpuff; */
+    box-shadow: 2px 0px 12px gray;
+}
+.ham img{
+    margin: 10px;
+    /* background-color: blueviolet; */
+    width: 50px;
+    height: 50px;
+}
+.soc img{
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    
+}
+.soc img:hover{
+    transform: scale(1.1);
+}
+#a{
+    bottom: 135px;
+    
+}
+#b{
+    bottom: 90px;
+}
+#c{
+    bottom: 45px;
+}
+#d{
+    bottom: 0px;
+}
+.logo img{
+    height: 90px;
+    /* width: 90px; */
+    position: absolute;
+    top: 3%;
+    left: 6%;
+    /* background-color: palevioletred; */
+}
+.container{
+    height: 65%;
+    width: 80%;
+    position: absolute;
+    margin: 10%;
+    background-color: rgb(255, 255, 255);
+}
+.container .text{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    /* background-color: brown; */
+}
+.text h1{
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Asap;
+}
+.text p{
+    /* margin: 10px; */
+    padding: 10px;
+    padding-left: 25px;
+}
+#price{
+    font-size: 50px;
+    font-family: Raleway;
+    font-weight: 160px;
+}
+.text button{
+    margin-top: 4%;
+    margin-left: 10%;
+    width: 140px;
+    padding: 10px;
+    border-radius: 18px;
+    background-color: yellow;
+    transition: 0.3s;
+}
+.text button:hover{
+    cursor: pointer;
+    background-color: orange;
+    border-color: black;
+    transform: scale(1.1);
+}
+
+.shoe{
+    height: 90%;
+    width: 40%;
+    position: absolute;
+    right: 10%;
+    margin: 20px;
+    background: linear-gradient(#1FB4EC, white, #89C302);
+    border-radius: 50%;
+}
+#ab{
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    right: 15%; 
+    transform: rotate(20deg);
+}
+.footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 10%;
+    width: 95%;
+    /* background-color: pink; */
+
+}
+.back{
+    position: absolute;
+    top: 4%;
+    right: 50%;
+    /* background-color: blue; */
+}
+.back img{
+    position: absolute;
+    top: 20%;
+    right: -80%;
+    height: 20px;
+    transition: 0.5s;
+}
+.back img:hover{
+    transform:rotate(360deg);
+}
+.colors{
+    position: absolute;
+    top: 4%;
+    right: 40%;
+}
+.circle{
+    width: 40%;
+    height: 90%;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.circle:hover{
+    transform: translateY(-5px);
+}
+.black{
+    position: absolute;
+    top: 4px;
+    right: -25px;
+    background-color: black;
+    box-shadow: 0px 15px 8px gray;
+}
+.red{
+    position: absolute;
+    top: 4px;
+    right: -55px;
+    background-color: red;
+    box-shadow: 0px 15px 8px gray;
+}
+.yellow{
+    position: absolute;
+    top: 4px;
+    right: -85px;
+    background-color: yellow;
+    box-shadow: 0px 15px 8px gray;
+}
+.green{
+    position: absolute;
+    top: 4px;
+    right: -115px;
+    background-color: green;
+    box-shadow: 0px 15px 8px gray;
+}
+.blue{
+    position: absolute;
+    top: 4px;
+    right: -145px;
+    background-color: blue;
+    box-shadow: 0px 15px 8px gray;
+}
+
+
+
+
+
+/* #D5012A */
+
+
